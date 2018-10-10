@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/mine_edit_title_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:gravity="center"
+        android:textColor="#FF808080"
+        android:text="选择照片"
+        android:textSize="14dp" />
+    <View
+        android:id="@+id/mine_edit_title_line_tv"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="#FFF1F1F1"
+        android:layout_height="1px"></View>
+    <TextView
+        android:id="@+id/mine_edit_take_pic_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:text="拍照"
+        android:textSize="18dp" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="#FFF1F1F1"
+        android:layout_height="1px"></View>
+    <TextView
+        android:id="@+id/mine_edit_select_pic_tv"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:text="从相册中选取"
+        android:textSize="18dp" />
+    <View
+        android:layout_width="match_parent"
+        android:background="#FFF1F1F1"
+        android:layout_height="10dp"></View>
+    <TextView
+        android:id="@+id/mine_edit_cancel_pic_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:text="取消"
+        android:textSize="18dp" />
+</LinearLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="60dp"
+    android:layout_marginLeft="12dp"
+    android:layout_marginTop="3dp"
+    android:layout_height="60dp">
+    <ImageView
+        android:id="@+id/mine_sugguest_icon_iv"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@mipmap/mine_suggest_add" />
+
+    <ImageView
+        android:id="@+id/mine_sugguest_delete_iv"
+        android:layout_width="17dp"
+        android:layout_height="17dp"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="right"
+        android:src="@mipmap/mine_suggest_icon_delete" />
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cn.com.mark.multiimage.core">
+
+    <application
+        android:allowBackup="true">
+        <meta-data
+            android:name="android.max_aspect"
+            android:value="2.2" />
+    </application>
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+</manifest>
