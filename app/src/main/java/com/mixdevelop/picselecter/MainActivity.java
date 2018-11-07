@@ -22,6 +22,7 @@ import java.util.List;
 
 import cn.com.mark.multiimage.core.ImageMainActivity;
 
+
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     private RecyclerView mRv;

@@ -68,16 +68,17 @@ public class ImageFolderEntity implements Comparable<ImageFolderEntity> {
 
     @Override
     public int compareTo(ImageFolderEntity another) {
-        if (sDefaultName.equals(name) || sDefaultName.equals(another.getName())) {
-            if (sDefaultName.equals(name) && sDefaultName.equals(another.getName())) {
+
+        if (name.equals(sDefaultName)|| another.getName().equals(sDefaultName)) {
+            if (name.equals(sDefaultName) && another.getName().equals(sDefaultName)) {
                 return 0;
             }
 
-            if (sDefaultName.equals(name) && !sDefaultName.equals(another.getName())) {
+            if (name.equals(sDefaultName) && !another.getName().equals(sDefaultName)) {
                 return -1;
             }
 
-            if (!sDefaultName.equals(name) && sDefaultName.equals(another.getName())) {
+            if (!name.equals(sDefaultName) && another.getName().equals(sDefaultName)) {
                 return 1;
             }
         }

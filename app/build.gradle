@@ -31,5 +31,6 @@ dependencies {
     implementation 'jp.wasabeef:glide-transformations:2.0.1'
     implementation 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.30'
     implementation 'com.android.support:support-v4:28+'
+
     compile project(path: ':PicSelecterLibrary')
 }
